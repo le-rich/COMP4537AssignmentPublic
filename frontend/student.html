@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Individual Assignment</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div clss="row">
+            <div class="col-6 mx-auto text-center my-4">
+                <h1>
+                    Student Quiz
+                </h1>
+            </div>
+            <div class="row">
+                <ul class="list-group list-group-flush" id="questionsList">
+                    <!-- <li class="list-group-item">
+                        <div>
+                            <h3>Question 1 </h3>
+                            <p>What is the circumference of my big phat balls?</p>
+                            <input type="radio" id="Large" name="gender" value="Large">
+                            <label for="Large">Large</label><br>
+                            <input type="radio" id="Huge" name="gender" value="Huge">
+                            <label for="Huge">Huge</label><br>
+                            <input type="radio" id="Gargantuan" name="gender" value="Gargantuan">
+                            <label for="Gargantuan">Gargantuan</label>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mx-auto text-center">
+                <button type="button" class="btn btn-success" onclick="submitQuiz()">Submit Quiz</button>
+            </div>
+        </div>
+        <div class="row" id="noQuizRow">
+            <div class="col-9 mx-auto text-center">
+                <h3>There are no quiz questions in the database!</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/student.js"></script>
+</body>
+</html>

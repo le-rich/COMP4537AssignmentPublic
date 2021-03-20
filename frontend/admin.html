@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Individual Assignment</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div clss="row">
+            <div class="col-2 mr-auto text-left">
+               <a href="https://assignment.richardisa.com/">Go Back</a>
+            </div>
+            <div class="col-6 mx-auto text-center my-4">
+                <h1>
+                    Admin QuizBuilder
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-group list-group-flush" id="questionsList">
+
+            </ul>
+        </div>
+        <div class="row my-4">
+            <div class="col-6 mx-auto text-center">
+                <button type="button" class="btn btn-primary" onclick="addQuestion()">Add Question</button>
+            </div>
+        </div>
+        <div class="row" id="noQuizRow">
+            <div class="col-9 mx-auto text-center">
+                <h3>Unable to connect to database</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>
+
+
+<!-- <li class="list-group-item" id="question1">
+    <div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Question 1: </h3>
+                <div class="input-group my-4" id="question1InputGroup">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Question Prompt</span>
+                    </div>
+                    <div class="w-75">
+                        <input type="text" class="form-control" aria-label="Default">
+                    </div>
+                    <div class="w-75 my-4" id="optionContainer1">
+                        <div class="checkbox my-b w-90">
+                            <label>
+                                <input type="radio" value="" name="question1">
+                            </label>
+                            <input type="text" name="question1" style="width: 50%;">
+                        </div>
+                        <div class="checkbox my-3 w-90">
+                            <label>
+                                <input type="radio" value="" name="question1">
+                            </label>
+                            <input type="text" name="question1" style="width: 50%;">
+                        </div>
+                    </div>
+                    <div class="w-75">
+                        <button type="button" class="btn btn-secondary" id="addOption1" onclick="addOption(1)">Add Option</button>
+                        <button type="button" class="btn btn-secondary" id="deleteOption1" onclick="deleteOption(1)">Delete Option</button>
+                        <button type="button" class="btn btn-danger ml-auto" onclick="deleteQuestion(1)">Delete Question</button>
+                    </div>
+                    <div class="w-75">
+                        <button type="button" class="btn btn-success" onclick = "submitQuestion(' + qNum + '")>Submit Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li> -->
